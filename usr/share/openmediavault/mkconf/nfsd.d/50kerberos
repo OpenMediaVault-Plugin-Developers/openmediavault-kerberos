@@ -24,20 +24,13 @@ set -e
 . /etc/default/openmediavault
 . /usr/share/openmediavault/scripts/helper-functions
 
-case "$1" in
-    purge)
-        # Remove the configuration data
-        omv_config_delete "/config/services/kerberos"
-        omv_set_default "OMV_NFSD_NEEDSVCGSSD" ""
-    ;;
+OMV_NFSD_CONFIG=${OMV_NFSD_CONFIG:-"/etc/exports"}
 
-    remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
-    ;;
+[ "$(omv_config_get "//services/nfs/enable")" = "0" -o \
+  "$(omv_config_get "//services/kerberos/nfs-enabled")" = "0" -o \
+  "$(omv_config_get "//services/kerberos/enable")" = "0" ] && exit 0
 
-    *)
-        echo "postrm called with unknown argument '$1'" >&2
-        exit 1
-    ;;
-esac
+sed -r -i 's/\)$/,sec=krb5:krb5p:krb5i\)/g' ${OMV_NFSD_CONFIG}
 
-exit 0
+
+

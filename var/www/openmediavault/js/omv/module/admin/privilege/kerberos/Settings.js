@@ -2,10 +2,8 @@
  * @license   http://www.gnu.org/licenses/gpl.html GPL Version 3
  * @author    Volker Theile <volker.theile@openmediavault.org>
  * @author    OpenMediaVault Plugin Developers <plugins@omv-extras.org>
- * @author    Ilya Kogan <ikogan@flarecode.com>
  * @copyright Copyright (c) 2009-2013 Volker Theile
- * @copyright Copyright (c) 2013-2014 OpenMediaVault Plugin Developers
- * @copyright Copyright (c)      2015 Ilya Kogan
+ * @copyright Copyright (c) 2013-2015 OpenMediaVault Plugin Developers
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -98,7 +96,7 @@ Ext.define("OMV.module.admin.privilege.kerberos.Settings", {
                 name       : "nfs-enabled",
                 fieldLabel : _("NFS"),
                 checked    : true,
-                boxLabel   : _("Enable support for Kerberos security for NFS shares. Note that this must still be enabled per share by adding the `sec=krb5`, `sec=krb5i`, or `sec=krb5p` options.")
+                boxLabel   : _("Enable support for Kerberos security for all NFS shares.")
             }, {
                 xtype      : "checkbox",
                 name       : "smb-enabled",
