@@ -1,12 +1,14 @@
-# Copyright (C) 2009-2013 Volker Theile <volker.theile@openmediavault.org>
-# Copyright (C) 2013-2015 OpenMediaVault Plugin Developers
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-kerberos\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 06:31-0500\n"
+"POT-Creation-Date: 2015-09-16 22:00-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +41,7 @@ msgstr ""
 msgid "Enable support for Kerberos authentication for SMB/CIFS."
 msgstr ""
 
-msgid "Enable support for Kerberos security for NFS shares. Note that this must still be enabled per share by adding the `sec=krb5`, `sec=krb5i`, or `sec=krb5p` options."
+msgid "Enable support for Kerberos security for all NFS shares."
 msgstr ""
 
 msgid "Enable support for system-wide Kerberos authentication via PAM."

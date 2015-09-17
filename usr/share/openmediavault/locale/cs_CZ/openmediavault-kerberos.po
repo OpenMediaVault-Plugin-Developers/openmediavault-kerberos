@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Pavel Borecki <pavel.borecki@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-kerberos\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 06:31-0500\n"
-"PO-Revision-Date: 2015-04-23 11:32+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/openmediavault-kerberos/language/cs_CZ/)\n"
+"POT-Creation-Date: 2015-09-16 22:00-0500\n"
+"PO-Revision-Date: 2015-09-17 03:01+0000\n"
+"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
+"Language-Team: Czech (Czech Republic) (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-kerberos/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,88 +19,85 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 msgid "Add Key from Key Server"
-msgstr ""
+msgstr "Přidat klíč ze serveru s klíči"
 
 msgid "Admin Server"
-msgstr ""
+msgstr "Správní server"
 
 msgid "Administration Password"
-msgstr ""
+msgstr "Heslo pro správu"
 
 msgid "Administration Principal"
-msgstr ""
+msgstr "Identita pro správu"
 
 msgid "Create Principal"
-msgstr ""
+msgstr "Vytvořit identitu"
 
 msgid "Enable"
-msgstr ""
+msgstr "Zapnout"
 
 msgid "Enable support for Kerberos and GSSAPI authentication for SSH."
-msgstr ""
+msgstr "Zapnout Kerberos a GSSAPI ověřování pro SSH."
 
 msgid "Enable support for Kerberos authentication for SMB/CIFS."
-msgstr ""
+msgstr "Zapnout Kerberos ověřování pro SMB/CIFS."
 
-msgid ""
-"Enable support for Kerberos security for NFS shares. Note that this must "
-"still be enabled per share by adding the `sec=krb5`, `sec=krb5i`, or "
-"`sec=krb5p` options."
+msgid "Enable support for Kerberos security for all NFS shares."
 msgstr ""
 
 msgid "Enable support for system-wide Kerberos authentication via PAM."
-msgstr ""
+msgstr "Zapnout Kerberos ověřování pro celý systém, s využitím PAM."
 
 msgid "Extra options"
-msgstr ""
+msgstr "Rozšířené předvolby"
 
 msgid ""
 "FQDN in all caps. It should match a real domain that a DNS server (even if "
 "local) will resolve. Note that the actual domain does not have to be in all "
 "uppercase."
-msgstr ""
+msgstr "Úplný doménový název, zapsaný pouze velkými písmeny. Měl by se shodovat se skutečnou doménou, kterou DNS server (i místní) přeloží na IP adresu. Poznamenejme, že doména jako taková nemusí být tvořena pouze velkými písmeny."
 
 msgid "FQDN or IP address of the Kerberos Admin Server."
-msgstr ""
+msgstr "Úplný doménový název nebo IP adresa správního serveru pro Kerberos."
 
 msgid "FQDN or IP address of the Kerberos Key Distribution Server."
-msgstr ""
+msgstr "Úplný doménový název nebo IP adresa serveru distribuce klíčů Kerbera."
 
 msgid "Failed to add desired key from KDC"
-msgstr ""
+msgstr "Přidání požadovaného klíče z KDC se nezdařilo"
 
 msgid "Failed to create new key on KDC"
-msgstr ""
+msgstr "Na KDC se nezdařilo vytvořit nový klíč"
 
 msgid "Failed to remove key(s) from key tab"
-msgstr ""
+msgstr "Klíče se nezdařilo odebrat z uložených oprávnění (key tab)"
 
 msgid "General settings"
-msgstr ""
+msgstr "Obecná nastavení"
 
 msgid "Integrations"
-msgstr ""
+msgstr "Začlenění"
 
 msgid "KDC"
-msgstr ""
+msgstr "Distribuční centrum klíčů (KDC)"
 
 msgid "Kerberos"
 msgstr ""
 
 msgid "Key Tab"
-msgstr ""
+msgstr "Uložená pověření (key tab)"
 
 msgid "Logging"
-msgstr ""
+msgstr "Protokolování"
 
 msgid "NFS"
 msgstr ""
 
 msgid "New Principal"
-msgstr ""
+msgstr "Nová identita"
 
 msgid "New Principal Key"
-msgstr ""
+msgstr "Klíč nové identity"
 
 msgid "PAM"
 msgstr ""
@@ -107,16 +105,16 @@ msgstr ""
 msgid ""
 "Please check the <a href='http://linux.die.net/man/5/krb5.conf' "
 "target='_blank'>manual page</a> for more details."
-msgstr ""
+msgstr "Další podrobnosti jsou uvedeny v <a href='http://linux.die.net/man/5/krb5.conf' target='_blank'>manuálové stránce</a>."
 
 msgid "Principal"
-msgstr ""
+msgstr "Kerberos identita (principal)"
 
 msgid "Realm"
-msgstr ""
+msgstr "Oblast (realm)"
 
 msgid "Reload"
-msgstr ""
+msgstr "Načíst znovu"
 
 msgid "SMB/CIFS"
 msgstr ""
@@ -125,16 +123,16 @@ msgid "SSH"
 msgstr ""
 
 msgid "Settings"
-msgstr ""
+msgstr "Nastavení"
 
 msgid "Slot"
 msgstr ""
 
 msgid "Target Principal"
-msgstr ""
+msgstr "Cílová identita (principal)"
 
 msgid "Use Random Key"
-msgstr ""
+msgstr "Použít náhodný klíč"
 
 msgid "Version"
-msgstr ""
+msgstr "Verze"

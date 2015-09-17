@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-kerberos\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 06:31-0500\n"
-"PO-Revision-Date: 2015-05-07 10:20+0000\n"
-"Last-Translator: Stefan Thrane Overby <stoverby@gmail.com>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/openmediavault-kerberos/language/da/)\n"
+"POT-Creation-Date: 2015-09-16 22:00-0500\n"
+"PO-Revision-Date: 2015-09-17 03:01+0000\n"
+"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
+"Language-Team: Danish (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-kerberos/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,31 +25,28 @@ msgid "Admin Server"
 msgstr "Admin Server"
 
 msgid "Administration Password"
-msgstr ""
+msgstr "Administration Adgangskode"
 
 msgid "Administration Principal"
-msgstr ""
+msgstr "Administration Overhoved"
 
 msgid "Create Principal"
-msgstr ""
+msgstr "Opret Overhoved"
 
 msgid "Enable"
 msgstr "Aktiver"
 
 msgid "Enable support for Kerberos and GSSAPI authentication for SSH."
-msgstr ""
+msgstr "Aktiver understøttelse til Kerberos og GSSAPI godkendelse af SSH."
 
 msgid "Enable support for Kerberos authentication for SMB/CIFS."
-msgstr ""
+msgstr "Aktiver understøttelse til Kerberos godkendelse af SMB/CIFS."
 
-msgid ""
-"Enable support for Kerberos security for NFS shares. Note that this must "
-"still be enabled per share by adding the `sec=krb5`, `sec=krb5i`, or "
-"`sec=krb5p` options."
+msgid "Enable support for Kerberos security for all NFS shares."
 msgstr ""
 
 msgid "Enable support for system-wide Kerberos authentication via PAM."
-msgstr ""
+msgstr "Aktiver understøttelse til Kerberos godkendelse til hele systemet over PAM."
 
 msgid "Extra options"
 msgstr "Ekstra valgmuligheder"
@@ -58,28 +55,28 @@ msgid ""
 "FQDN in all caps. It should match a real domain that a DNS server (even if "
 "local) will resolve. Note that the actual domain does not have to be in all "
 "uppercase."
-msgstr ""
+msgstr "FQDN i alle forbogstaver. Det skal svare til et rigtig domæne som en DNS server (selv hvis den er lokal) vil opslå. Bemærk at det aktuelle domæne ikke behøver at være i store bogstaver."
 
 msgid "FQDN or IP address of the Kerberos Admin Server."
 msgstr "FQDN eller IP adresse på Kerberos Admin Serveren."
 
 msgid "FQDN or IP address of the Kerberos Key Distribution Server."
-msgstr ""
+msgstr "FQDN eller IP adresse på Kerberos Nøgle Distribution Serveren."
 
 msgid "Failed to add desired key from KDC"
-msgstr "Fejlede i at tilføje ønsket nøgle fra KDC"
+msgstr "Lykkedes ikke i at tilføje ønsket nøgle fra KDC"
 
 msgid "Failed to create new key on KDC"
-msgstr "Fejlede i at oprette ny nøgle på KDC"
+msgstr "Lykkedes ikke i at oprette ny nøgle på KDC"
 
 msgid "Failed to remove key(s) from key tab"
-msgstr ""
+msgstr "Lykkedes ikke i at fjerne nøgle(r) fra nølge fane"
 
 msgid "General settings"
 msgstr "Generelle indstillinger"
 
 msgid "Integrations"
-msgstr ""
+msgstr "Integrationer"
 
 msgid "KDC"
 msgstr "KDC"
@@ -88,19 +85,19 @@ msgid "Kerberos"
 msgstr "Kerberos"
 
 msgid "Key Tab"
-msgstr ""
+msgstr "Nøgle Fane"
 
 msgid "Logging"
-msgstr ""
+msgstr "Logning"
 
 msgid "NFS"
 msgstr "NFS"
 
 msgid "New Principal"
-msgstr ""
+msgstr "Ny Overhoved"
 
 msgid "New Principal Key"
-msgstr ""
+msgstr "Ny Overhoved Nøgle"
 
 msgid "PAM"
 msgstr "PAM"
@@ -108,13 +105,13 @@ msgstr "PAM"
 msgid ""
 "Please check the <a href='http://linux.die.net/man/5/krb5.conf' "
 "target='_blank'>manual page</a> for more details."
-msgstr ""
+msgstr "Kontroller venligst <a href='http://linux.die.net/man/5/krb5.conf' target='_blank'>manual page</a> for flere detaljer."
 
 msgid "Principal"
-msgstr ""
+msgstr "Overhoved"
 
 msgid "Realm"
-msgstr ""
+msgstr "Rige"
 
 msgid "Reload"
 msgstr "Genindlæs"
@@ -129,10 +126,10 @@ msgid "Settings"
 msgstr "Indstillinger"
 
 msgid "Slot"
-msgstr ""
+msgstr "Slot"
 
 msgid "Target Principal"
-msgstr ""
+msgstr "Overhoved Mål"
 
 msgid "Use Random Key"
 msgstr "Brug Tilfældig Nøgle"
